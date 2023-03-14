@@ -1,0 +1,25 @@
+.pagination-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pagination-buttons{
+    padding-top: 3px;
+}
+.arrow-previous{
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+}
+.arrow-next{
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+}
+.pagination-index{
+    padding: 10px;
+    font-size: 15px;
+}

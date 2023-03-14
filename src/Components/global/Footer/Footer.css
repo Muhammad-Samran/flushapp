@@ -1,0 +1,17 @@
+.lng-border {
+  border: 1px solid #cccccc;
+}
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: #F5F5F5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer-line-height{
+  line-height: 25px;
+}
+.footer-pad{
+  padding: 10px;
+}

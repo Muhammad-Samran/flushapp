@@ -1,0 +1,75 @@
+.sidebar-main{
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 12px 0px 0px 12px;
+    
+}
+.sidebar-card{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #E1E1E1;
+    padding: 20px;
+
+}
+.sidebar-body{
+    padding-left: 10px;
+}
+.sidebar-title span{
+    width: 64px;
+    height: 24px;  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F464E;
+}
+.sidebar-sub-title span{
+    width: 216px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+.sidebar-time span{
+    width: 77px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    }
+.head-2 span{
+    width: 72px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    letter-spacing: 2px;
+}
+.head-1 span{
+    width: 49px;
+    height: 23px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #3F464E;
+}
+.sidebar-header{
+    padding: 20px;
+}
+
+.contact-head-border{
+    border-top: 1px solid #E1E1E1;
+}

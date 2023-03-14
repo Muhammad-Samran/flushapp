@@ -1,0 +1,44 @@
+.rdw-editor-toolbar {
+    background-color: #F4F1F0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.rdw-editor-wrapper {
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 20px;
+}
+.rdw-editor-main {
+    height: 150px;
+    padding-left: 10px;
+}
+.editor-cancel-btn{
+    width: 163.72px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 2px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #3F464E;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.editor-post-btn{
+    width: 163.72px;
+    height: 60px;
+    background: linear-gradient(182.24deg, #04D76A 0%, #3F464E 118.68%);
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+.text-submit-buttons{
+    text-align: end;
+    padding-top: 20px;
+}

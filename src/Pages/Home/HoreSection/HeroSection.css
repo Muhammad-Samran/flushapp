@@ -1,0 +1,10 @@
+.hore-bg {
+  background-color: #fbf7ed;
+  height: 70vh;
+  margin-top: 77px;
+}
+.HeroSectionForm input {
+  border: 1px solid var(--b-color);
+}
+.HeroSectionForm .col {
+}

@@ -1,0 +1,127 @@
+.archi-panel-head{
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.archi-panel-head span{
+    width: 126px;
+    height: 25px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #3F464E;
+}
+.marBot{
+    margin-bottom: 20px;
+}
+.custom-bullet{
+    display: flex;
+    flex-direction: row;
+}
+.bullet-style{
+    background-color: #04D76A;
+    height: 2px;
+    width: 20px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.education-div{
+    padding-bottom: 20px;
+}
+.bullet-detail span{
+    width: 176px;
+    height: 20px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3F464E;
+}
+
+.detail-block p{
+    padding-top: 10px;
+}
+.detail-block-last small{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+.detail-block small{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+.detail-block-last p {
+    padding-top: 20px;
+}
+.archi-detail-title {
+    padding-left: 0px;
+    margin-top: 0px;
+}
+.interview-button span{
+    width: 135px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.interview-button{
+    width: 174px;
+    height: 36px;
+    background: linear-gradient(182.24deg, #04D76A 0%, #3F464E 118.68%);
+    border-radius: 6px;
+    border: none;
+}
+.interview-btn{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 5px;
+}
+.folow-btn{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row-reverse;
+    align-items: end;
+}
+.main-div-pad{
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 990px) {
+    .interview-btn{
+        align-items: end;
+        padding-top: 5px;
+    }
+    .main-div-pad{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 575px) {
+    .side-panel-archi{
+        display: none;
+    }
+    .folow-btn{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    .follow-button{
+        width: 174px;
+    }
+    .interview-btn{
+        align-items: center;
+    }
+}

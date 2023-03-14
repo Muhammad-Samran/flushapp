@@ -1,0 +1,129 @@
+.ans-main{
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.previous-title-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.view-span{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #999999;
+
+}
+.previous-span{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #3F464E;
+}
+
+.reply-answers{
+    display: flex;
+    flex-direction: column;
+    
+}
+.detail-icons{
+    padding: 10px;
+}
+.ans-main{
+    flex-direction: column;
+}
+.answer-detail p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: justify;
+    text-align: center;
+    color: #666666;
+}
+.job-type a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #06C864;
+}
+.previous-answers-main{
+    padding-top: 20px;
+}
+.trending-main{
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.trending-main h5
+{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    color: #3F464E;
+}
+.trending-card h3{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #3F464E;
+}
+
+.trending-card{
+    padding: 10px;
+    border-top: 1px solid #E1E1E1;
+}
+
+.span1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #888888;
+    padding-right: 5px;
+}
+
+.span2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #06C864;
+}

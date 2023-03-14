@@ -1,0 +1,134 @@
+.service-header-img img{
+    height: 250px;
+    width: 100%;
+    border-radius: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 20px;
+}
+.service-main{
+    margin-top: 10px;
+    max-width: 800px;
+}
+.service-title{
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+color: #3F464E;
+padding-bottom: 20px;
+}
+
+.service-desc{
+    max-width: 500px;
+}
+.services-price-book-now{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.service-desc p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px; 
+    color: #666666;
+    line-height: 1.4;
+    text-align: justify;
+}
+.service-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.service-footer-leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.service-span1{
+    color: #06C864;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    padding-right: 10px;
+}
+.service-span2{
+    color: #3F464E;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.service-book-btn{
+    width: 123px;
+    height: 44px;
+
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(182.24deg, #04D76A 0%, #3F464E 118.68%);
+    border-radius: 6px;
+    border: none;
+
+}
+.service-footer-rightside h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    color: #666666;
+}
+.service-footer-rightside span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    color: #666666;
+}
+@media only screen and (max-width: 1200px) {
+    .service-footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .service-footer-rightside{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+  }
+
+@media only screen and (max-width: 500px) {
+    /* .service-footer{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .service-footer-rightside{
+        padding-bottom: 20px;
+    } */
+    .service-price{
+        padding-bottom: 10px;
+    }
+    .service-booking{
+        padding-bottom: 10px;
+    }
+    .services-price-book-now{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+  }

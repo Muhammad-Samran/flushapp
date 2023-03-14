@@ -1,0 +1,37 @@
+#TakeTheRightDecision {
+  background-color: #2b333c;
+}
+
+.mar {
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  color: #434e59 !important;
+  width: 100%;
+}
+
+.mar span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 18s linear infinite;
+}
+
+.mar2 span {
+  animation-delay: 6s;
+}
+.mar3 span {
+  animation-delay: 12s;
+}
+.mar4 span {
+  animation-delay: 18s;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}

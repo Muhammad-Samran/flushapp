@@ -1,0 +1,39 @@
+.upload-main{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.upload-main h2{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3F464E;
+}
+.upload-main span{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.upload-popup-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.upload-btn{
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(182.24deg, #04D76A 0%, #3F464E 118.68%);
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+    }

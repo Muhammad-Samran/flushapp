@@ -1,0 +1,39 @@
+.sidecard-main{
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.sidecard-header{
+    background: #F6F6F6;
+    border-radius: 12px 12px 0px 0px;
+}
+.sidecard-header h2{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #3F464E;
+    padding: 20px;
+}
+.sidecard-body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3F464E;
+    padding: 20px;
+    line-height: 2.5;
+}
+/* .sidecard-span1{
+    margin-bottom: 20px;
+}
+.sidecard-span2{
+    margin-bottom: 20px;
+}
+.sidecard-span3{
+    margin-bottom: 20px;
+} */

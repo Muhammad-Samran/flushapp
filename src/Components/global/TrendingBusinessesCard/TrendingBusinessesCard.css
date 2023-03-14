@@ -1,0 +1,117 @@
+.t-main{
+    width: 100%;
+    /* height: 370px; */
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.t-img img{
+    border-radius: 0%;
+    width: 100%;
+    object-fit: contain;
+}
+.t-body{
+    padding: 20px;
+}
+.t-title{
+    padding-bottom: 5px;
+}
+.t-title span{
+    width: 169px;
+    height: 23px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #3F464E;
+}
+
+.t-subTitle span{
+color: #666666;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+.t-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.t-btn1{
+    border: none;
+    width: 89px;
+    height: 36px;
+    background: #EEEEEE;
+    border-radius: 6px;
+    margin: 5px;
+}
+.t-btn2{
+    border: none;
+    width: 89px;
+    height: 36px;
+    background: #EEEEEE;
+    border-radius: 6px;
+    margin: 5px;
+}
+.t-btn1 span{
+    width: 49px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3F464E;
+}
+.t-btn2 span{
+    width: 49px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3F464E;
+}
+.grid-call{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.t-space{
+    padding-left: 15px;
+}
+.t-m-b{
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1200px) {
+    .grid-call{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .t-img img{
+        border-radius: 0%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .grid-call{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .t-img img{
+        border-radius: 0%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .t-img img{
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .grid-call{
+        grid-template-columns: 1fr; 
+    }
+    
+}

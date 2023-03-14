@@ -1,0 +1,7 @@
+.ImagePreview {
+  max-height: 300px;
+  img {
+    height: 300px;
+    object-fit: cover;
+  }
+}

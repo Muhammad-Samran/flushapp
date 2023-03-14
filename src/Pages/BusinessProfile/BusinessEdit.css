@@ -1,0 +1,12 @@
+.selectedListItem {
+  background-color: #04d76a;
+  color: white;
+  cursor: pointer;
+}
+.subTitle-business-profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}

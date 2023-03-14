@@ -1,0 +1,14 @@
+.multiSelectItem{
+    background-color: rgba(6, 200, 100, 0.2);
+    z-index: -10;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    .multiselectCross{
+        color: rgb(6, 200, 100);
+        padding: 5px;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+}

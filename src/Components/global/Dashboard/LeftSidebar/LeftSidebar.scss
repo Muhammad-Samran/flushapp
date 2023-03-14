@@ -1,0 +1,29 @@
+.ProfileWidgets {
+  background-position: top center;
+  background-repeat: no-repeat !important;
+}
+.iconContainer {
+  background-color: rgba(4, 215, 106, 0.1);
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftsidebar_icons{
+  object-fit: contain;
+  width: 20px;
+  height: 35px;
+}
+.leftsidebar_icons_location{
+  object-fit: contain;
+  width: 15px;
+  height: 35px;
+}
+.link-colors{
+  color: #555555;
+}
+.link-colors:hover{
+  color: #20cd68 !important;
+}

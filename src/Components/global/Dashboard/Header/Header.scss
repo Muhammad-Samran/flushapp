@@ -1,0 +1,41 @@
+.dropDownMenu {
+  width: 230px;
+  padding: 0px;
+  margin: auto 0px;
+  border-radius: 10px;
+}
+.BgCustomer {
+  background-color: transparent !important;
+  border: 0px;
+}
+.BgCustomer::after {
+  color: black !important;
+}
+.InputBgMenu {
+  background-color: #f4f1f0 !important;
+}
+.dropDownHeader{
+  height: 50px;
+  background: linear-gradient(179.71deg, #04D76A 0.51%, #3F464E 103.31%);
+  color: #FFFFFF;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+.dropDowncenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0px;
+}
+
+.DropdownHeader{
+  margin: auto 0px;
+  padding-left: 0px;
+}
+.navShow .dropdown-menu .show{
+  width: 100% !important;
+  border: none !important;
+}

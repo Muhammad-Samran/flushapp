@@ -1,0 +1,76 @@
+.booking-Form-main {
+  background: #ffffff;
+  box-shadow: 3px 3px 20px rgba(63, 70, 78, 0.1);
+  border-radius: 16px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.booking-sidepanel {
+  margin: 30px;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.booking-sidepanel-img img {
+  width: 100%;
+  height: 200px;
+  border-radius: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.booking-sidepanel-detail {
+  padding: 20px;
+}
+.booking-sidepanel-detail h5 {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #3f464e;
+}
+.booking-sidepanel-detail span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666666;
+}
+.col-1-booking-form {
+  flex-grow: 1;
+  padding: 20px;
+}
+.col-2-booking-form {
+  max-width: 350px;
+}
+@media screen and (max-width: 1000px) {
+  .booking-Form-main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+.timeSlots{
+  border: 2px solid #e1e1e1;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.checkbox-timeSlots{
+  margin: 10px;
+}
+.timeSlots-heading{
+  margin-top: 10px;
+}
+.time-timeSlots{
+  padding-right: 20px;
+}

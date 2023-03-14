@@ -1,0 +1,16 @@
+.commentBg {
+  background: #f2f2f2;
+}
+.SharedContainer {
+  border: 1px solid var(--db-color);
+}
+
+#post-action {
+  background-color: transparent !important;
+  color: var(--dt-color);
+  border: 0px;
+  &:hover,
+  &:active {
+    border: 0px;
+  }
+}

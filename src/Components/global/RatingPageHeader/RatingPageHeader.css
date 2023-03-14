@@ -1,0 +1,93 @@
+.header-bg-img img{
+    width:100%;
+    height: 350px;
+    border: none;
+    border-radius: 0px;
+}
+.rating-body{
+    display: flex;
+    flex-direction: row;
+    
+}
+.rating-company-details{
+    padding: 20px;
+}
+.rating-profile img{
+    position: relative;
+    top: -50px; 
+    width: 150px;
+    background: radial-gradient(71.67% 71.67% at 50% 50%, #FFFFFF 0%, #F5F5F5 100%);
+    border: 2px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+.rating-title span{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #3F464E;
+    padding-bottom: 15px;
+}
+.rating-subtitle span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #3F464E;
+    
+}
+.rating-location-detail{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.rating-location1{
+    margin-right: 20px;
+    font-size: 16px;
+    align-items: center;
+    color: #3F464E;
+}
+.rating-contact-details{
+    display: flex;
+    flex-direction: row;
+}
+.rating-contact{
+    margin-right: 30px;
+}
+.rating-btn1{
+    width: 131px;
+    height: 44px;
+    background: linear-gradient(179.71deg, #04D76A 0.51%, #3F464E 103.31%);
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 14px;
+    border: none;
+    margin-right: 10px;
+}
+.rating-btn2{
+    width: 119px;
+    height: 44px;
+    background: #EEEEEE;
+    border-radius: 6px;
+    border: none;
+    color: #3F464E;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.rating-btn3{
+    width: 78px;
+    height: 44px;
+    background: #EEEEEE;
+    border-radius: 6px;
+    border: none;
+    color: #3F464E;
+    font-size: 14px;
+}
+.rating-buttons{
+    padding-top: 15px;
+}
+.rating-contact-details{
+    padding-top: 15px;
+}

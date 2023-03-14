@@ -1,0 +1,22 @@
+[
+    {
+        "outgoing":"Tom",
+        "incoming":"Hello !"
+    },
+    {
+        "outgoing":"Tom",
+        "incoming":"Hello !"
+    },
+    {
+        "outgoing":"incoming",
+        "incoming":"Hello !"
+    },
+    {
+        "outgoing":"Tom",
+        "incoming":"Hello !"
+    },
+    {
+        "outgoing":"Hello",
+        "incoming":"i am driving now, will see you soon !"
+    }
+]

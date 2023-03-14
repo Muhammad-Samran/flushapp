@@ -1,0 +1,23 @@
+.main-3 {
+    /* border: 1px solid #E1E1E1; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* .main-side-border-remove{
+border-left: none;
+border-right: none;
+border-top: none;
+border-bottom: 1px solid #E1E1E1;
+} */
+.saved-job-btn{
+    background: linear-gradient(
+        138.35deg, #04D76A 0.06%, #3F464E 101.81%);
+    
+        color: #FFFFFF;
+}
+.savedJobFooter{
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #E1E1E1;
+}

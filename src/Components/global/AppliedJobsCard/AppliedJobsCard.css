@@ -1,0 +1,75 @@
+.mapping-area{
+    /* border: 1px solid #E1E1E1; */
+    border-bottom: 1px solid #E1E1E1;
+}
+.icon-button{
+    width: 35px;
+    height: 35px;
+    background: #F4F1F0;
+    border-radius: 30px;
+    border: none;
+    margin: 3px;
+}
+.applied-btn{
+    display: flex;
+    justify-content: right;
+    padding-right: 35px;
+    padding-bottom: 10px;
+}
+.applied-button{
+    background: #06C864;
+    border-radius: 24px;
+    border: none;
+    width: 78px;
+    height: 24px;
+}
+.applied-button span{
+    width: 54px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.page-item{
+    list-style: none;
+}
+.page-item:not(:first-child) .page-link {
+    margin-left: 5px;
+}
+.page-item:first-child .page-link{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.page-item:last-child .page-link {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.page-item.active .page-link {
+    color: #fff;
+    background: linear-gradient(182.24deg, #04D76A 0%, #3F464E 118.68%);
+    border-radius: 6px;
+    border: none;
+}
+.page-item .page-link {
+    margin: 5px;
+    background-color: #EEEEEE;
+    border-radius: 6px;
+    color: #3F464E;
+}
+@media screen and (max-width: 500px) {
+    .pagination{
+        display: flex;
+        justify-content: center;
+    }
+    .panelFooter{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .applied-btn {
+        padding-right: 10px;
+
+    }
+    
+    
+
+}

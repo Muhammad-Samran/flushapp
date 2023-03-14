@@ -1,0 +1,141 @@
+.grid-main{
+    padding: 20px;
+    background: #FFFFFF;
+    border: 2px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.grid-headline{
+    color: #3F464E;
+    font-family: var(--primary-font);
+    font-size: clamp(18px, 1.5vw, 24px);
+    font-weight: bold;
+}
+.job-listing-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.grid-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-details{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.button-2{
+    background: #F4F1F0;
+    border-radius: 30px;
+    border: none;
+    padding: 5px;
+    color: #3F464E;
+    font-size: small;
+}
+.button-3{
+    background: #EEEEEE;
+    border-radius: 6px;
+    border: none;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #3F464E;
+}
+.button-1{
+    background: #F4F1F0;
+    border-radius: 30px;
+    border: none;
+    padding: 4px;
+    font-size: small;
+    margin-bottom: 3px;
+    font-size: small;
+}
+.grid-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+} 
+.grid-heading span{
+    color: #999999;
+    font-size: 12px;
+    line-height: 1;
+}
+.grid-title h4{
+    color: #3F464E;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    padding-top: 20px;
+    white-space: pre-wrap;
+}
+.job-desc p{
+    padding-top: 15px;
+    color: #444444;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: 400;
+}
+.grid-heading h4{
+    font-size: 16px;
+    color: #3F464E;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin: 0px;
+}
+.load-more-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.button-4{
+    background: #06C864;
+    border-radius: 6px;
+    width: 202px;
+    height: 46px;
+    border: none;
+    margin-bottom: 40px;
+
+}
+.button-4 span{
+    color: #FFFFFF;
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.button-3:hover {background-color: #D6D6D6}
+.button-3:active {
+  transform: translateY(1px);
+  background-color: #D6D6D6;
+}
+.button-4:hover {background-color: #3e8e41}
+.button-4:active {
+  transform: translateY(1px);
+  background-color: #3e8e41;
+}
+
+@media screen and (max-width: 1200px) {
+    .job-listing-grid{
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .button-2{
+        font-size: small;
+    }
+    .job-listing-grid{
+        grid-template-columns: 1fr; 
+    }
+    .grid-headline{
+        text-align: center;
+    }
+}

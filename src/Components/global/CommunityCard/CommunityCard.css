@@ -1,0 +1,54 @@
+.com-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.add-com span{
+    width: 133px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #06C864;
+}
+/* .icon-circle{
+    width: 40px;
+    height: 40px;
+    background: #F4F1F0;
+    border-radius: 51px;
+} */
+.c-body{
+    display: flex;
+    flex-direction: row;
+}
+.c-desc{
+    display: flex;
+    flex-direction: column;
+
+}
+/* .c-grid{
+    grid-template-columns: repeat(3, 1fr);
+} */
+.c-profile-img img{
+    width: 66.67px;
+    height: 64.5px;
+    position: relative;
+    top: -40px;
+    margin-right: 15px;
+}
+.c-sub{
+    display: flex;
+    flex-direction: row;
+}
+.c-sub1{
+    padding-right: 5px;
+}
+.c-main{
+    border-radius: 35px;
+}
+@media screen and (max-width: 500px) {
+    .add-com span{
+        font-size: 12px;
+    }
+}

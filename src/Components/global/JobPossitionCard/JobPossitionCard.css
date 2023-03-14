@@ -1,0 +1,139 @@
+.center-detail{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 25px;
+}
+.detail-heading span{
+    font-family: 'Circular Std';
+    font-size: 14px;
+    color: #3F464E;
+    /* margin-right: 65px; */
+}
+span.detail-desc{
+    color: #3F464E;
+    font-size: small;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+.select-dropdown{
+    padding: 25px;
+    flex: none;
+}
+.form-select-sm{
+    border-radius: 20px;
+}
+.job-position-main{
+    border: 1px solid #E1E1E1;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.top-headings{
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+.position{
+    padding-left: 10px;
+    padding-top: 25px;
+    flex: 1 1;
+}
+.position span{
+    padding-left: 30px;
+}
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} 
+.header-title{
+    width: 146px;
+    height: 30px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #3F464E;
+    white-space: nowrap;
+}
+.label-filter{
+    margin-right: 10px;
+}
+.job-position-fields{
+    width: 150px;
+}
+.header-filter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title-job-position{
+    flex-grow: 1;
+}
+.buttons-position{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+@media screen and (max-width: 1200px) {
+    .top-headings{
+        display: none;
+    }
+}
+@media screen and (max-width: 760px) {
+    .right-end{
+        display: none;
+    }
+    .center-detail{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 500px) {
+    .select-dropdown{
+        padding-right: 20px;
+        padding-bottom: 0px;
+    }
+    .center-detail{
+        flex-flow: wrap;
+        padding: 10px;
+    }
+    .detail-counts{
+        padding: 10px;
+    }
+    .form-select {
+        width: fit-content;
+    }
+    .select-dropdown {
+        padding-top: 0px;
+    }
+    .checkbox{
+        padding-right: 10px;
+    }
+    .right-end{
+        display: flex;
+    }
+    .right-end-2{
+        justify-content: space-around;
+    }
+    .header-filter{
+        display: none;
+    }
+    .main-header{
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    .main-header span{
+        font-size: medium;
+        justify-content: center;
+    }
+    .header-title{
+        text-align: center;
+    }
+}

@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Poppins Semi Bold";
+  src: url("./Assets/fonts/Poppins-SemiBold.eot");
+  src: url("./Assets/fonts/Poppins-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./Assets/fonts/Poppins-SemiBold.woff2") format("woff2"),
+    url("./Assets/fonts/Poppins-SemiBold.woff") format("woff"),
+    url("./Assets/fonts/Poppins-SemiBold.ttf") format("truetype"),
+    url("./Assets/fonts/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./Assets/fonts/Roboto-Regular.eot");
+  src: url("./Assets/fonts/Roboto-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./Assets/fonts/Roboto-Regular.woff2") format("woff2"),
+    url("./Assets/fonts/Roboto-Regular.woff") format("woff"),
+    url("./Assets/fonts/Roboto-Regular.ttf") format("truetype"),
+    url("./Assets/fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("./Assets/fonts/Roboto-Medium.eot");
+  src: url("./Assets/fonts/Roboto-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./Assets/fonts/Roboto-Medium.woff2") format("woff2"),
+    url("./Assets/fonts/Roboto-Medium.woff") format("woff"),
+    url("./Assets/fonts/Roboto-Medium.ttf") format("truetype"),
+    url("./Assets/fonts/Roboto-Medium.svg#Roboto-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("./Assets/fonts/CircularStd-Bold.eot");
+  src: url("./Assets/fonts/CircularStd-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./Assets/fonts/CircularStd-Bold.woff2") format("woff2"),
+    url("./Assets/fonts/CircularStd-Bold.woff") format("woff"),
+    url("./Assets/fonts/CircularStd-Bold.ttf") format("truetype"),
+    url("./Assets/fonts/CircularStd-Bold.svg#CircularStd-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  src: url("./Assets/fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"),
+    url("./Assets/fonts/Roboto-Light.woff2") format("woff2"),
+    url("./Assets/fonts/Roboto-Light.woff") format("woff"),
+    url("./Assets/fonts/Roboto-Light.ttf") format("truetype"),
+    url("./Assets/fonts/Roboto-Light.svg#Roboto-Light") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto Italic";
+  src: url("./Assets/fonts/Roboto-LightItalic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: 0.5; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  opacity: 0.7;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  opacity: 0.7;
+}
